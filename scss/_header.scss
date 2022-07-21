@@ -21,20 +21,6 @@
 	border: none;
 	cursor: pointer;
 
-	&:hover {
-		.header__burger {
-			background-color: var(--color-dark-blue);
-
-			&::before {
-				background-color: var(--color-dark-blue);
-			}
-
-			&::after {
-				background-color: var(--color-dark-blue);
-			}
-		}
-	}
-
 	.header__burger {
 		width: 1.3rem;
 		height: 1.3rem;

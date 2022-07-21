@@ -1151,18 +1151,6 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 
-.header__burger-wrapper:hover .header__burger {
-  background-color: var(--color-dark-blue);
-}
-
-.header__burger-wrapper:hover .header__burger::before {
-  background-color: var(--color-dark-blue);
-}
-
-.header__burger-wrapper:hover .header__burger::after {
-  background-color: var(--color-dark-blue);
-}
-
 .header__burger-wrapper .header__burger {
   width: 1.3rem;
   height: 1.3rem;
