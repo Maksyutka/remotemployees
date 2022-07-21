@@ -6,16 +6,16 @@ html {
 	scrollbar-width: thin;
 	scrollbar-color: var(--color-blue) #eaf4ff;
 	overflow-x: hidden;
+
+	&.overflow-off {
+		overflow: hidden;
+	}
 }
 
 body {
 	font-family: "Manrope", sans-serif;
 	font-family: "Montserrat", sans-serif;
 	overflow-x: hidden;
-
-	&.overflow-off {
-		overflow: hidden;
-	}
 
 	&::-webkit-scrollbar {
 		width: 8px;

@@ -84,13 +84,13 @@ function mobileMenuInit() {
 	const burderActiveClass = "header__burger-wrapper_active";
 	const mobileMenuSelector = ".mobile-menu";
 	const mobileMenuActiveClass = "mobile-menu_active";
-	const bodyOverflowClass = "overflow-off";
-	const bodySelectorClass = "body";
+	const htmlOverflowClass = "overflow-off";
+	const htmlSelectorClass = "html";
 
 	$(burderSelector).click(function () {
 		$(mobileMenuSelector).toggleClass(mobileMenuActiveClass);
 		$(burderSelector).toggleClass(burderActiveClass);
-		$(bodySelectorClass).toggleClass(bodyOverflowClass);
+		$(htmlSelectorClass).toggleClass(htmlOverflowClass);
 	});
 }
 
