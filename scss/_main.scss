@@ -276,6 +276,7 @@ body {
 	background-image: url(../images/backgrounds/service-bg.png), url(../images/backgrounds/service-bg2png.png);
 	background-repeat: no-repeat;
 	background-position: 9% 19%, 89% 93%;
+	overflow-x: hidden;
 }
 
 .steps__slider {
